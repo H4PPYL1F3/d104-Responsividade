@@ -1,0 +1,49 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items:  center;
+    padding: 10px 20px;
+    background-color: white;
+}
+
+*{
+    margin: 0;
+    text-decoration: none;
+}
+
+body{
+    background-color:#aaaa;
+}
+
+nav a{
+    font-size: 18px;
+    color: black;
+    display: block;
+    padding: 5px 10px;
+    background-color: #fff;
+}
+
+img{
+    width: 30px;
+}
+
+@media(max-width: 700px){
+    nav {
+        position: absolute;
+        right: 0;
+        top:64px;
+        width: 100%;
+        background-color: white;
+        text-align: right;
+    }
+}
+
+.menu{
+    display:block;
+}
+
+.active{
+    display: block;
+}
+
+
